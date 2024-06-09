@@ -39,6 +39,7 @@ $combidepcap = array_merge($departamentosUruguay, $capitalesUruguay);
 
 array_pop($combidepcap);
 
+sort($combidepcap);
 
 print_r ($combidepcap) ;
 
